@@ -1,0 +1,124 @@
+/*初始化代码*/
+body,div,p,ul,li,h3,img,h4,h5{margin: 0px; padding: 0px;}
+li{list-style: none;}
+a{text-decoration: none; color: black;}
+/*初始化代码结束*/
+
+body{background: white;}
+
+/*top项开始*/
+#top{width: 100%; height: 180px; background: white;}
+#top .logo{width: 170px; height: 180px; margin-left: 150px; position: relative;}
+#top .logo a{display: block; width: 200px; height: 185px; margin: 0 auto; color: black;}
+#top .logo a img{width: 65%; height: 80%; margin-top: 15px;}
+#top .logo p{position: absolute; left: 155px; top: 103px; width: 50px; height: 30px; color: black;}
+#top .menu{width: 750px; height: 180px; float: right; margin-top: -180px; margin-right: 55px;}
+#top .menu p{width: 120px; height: 30px; float: right; margin-top: 50px; 
+text-align: center;}
+#top .menu p a{color: black;}
+#top .menu p a:hover{text-decoration: underline;}
+#top .menu ul{width: 700px; height: 75px; margin-top: 100px; margin-left: 38px;}
+#top .menu ul li{float: left; width: 100px; height: 30px; text-align: center;}
+#top .menu ul li a{color: black;}
+#top .menu ul li a:hover{color: #B98C4B;}
+/*top项结束*/
+
+/*title项开始*/
+#title{height: 310px; width:100%; background: white;}
+#title h3{font-size: 36px; text-align: center;
+width: 270px; height: 60px; 
+font-weight: lighter; line-height: 60px;
+margin: 0 auto;
+}
+#title p.word1{
+	width: 545px; height: 30px;
+	 font-size: 12px;
+	line-height: 30px; text-align: center;
+	margin: 0 auto; font-weight: bold;
+	margin-top: 45px;
+}
+#title p.word2{
+	width:130px; height: 20px; 
+	text-align: center; line-height: 20px; 
+	font-size: 12px; margin: 0 auto;
+	margin-top: 26px;
+}
+#title h4{
+	width: 545px; height: 28px; border-top: 1px solid black;
+	margin: 0 auto; text-align: center; margin-top: 20px;
+	position: relative; margin-top:63px;
+}
+#title h4 span{font-size: 14px; display: inline-block;
+position: absolute; width: 250px; left: 145px; top:-10px;
+background: white;
+}
+/*title项结束*/
+
+/*body项开始*/
+#body{width: 1400px; height: 1450px; 
+margin: 0 auto;
+}
+#body ul{width: 1400px; height: 1450px; }
+#body ul li{width: 360px; height: 385px; background: red;
+float: left; margin-left: 35px; margin-bottom: 20px;
+}
+#body ul li.list1{margin-top: 60px;}
+#body ul li:nth-child(1){ margin-left: 125px;}
+#body ul li:nth-child(4){ margin-left: 125px;}
+#body ul li:nth-child(7){ margin-left: 125px;}
+#body ul li img{width: 360px; height: 385px;}
+#body ul li:nth-child(2){background: #BD5B49;}
+#body ul li:nth-child(5){background: #B09D60;}
+#body ul li:nth-child(8){background: #B98747;}
+#body ul li.list2 h5{ font-size: 18px; color: white;
+text-align: center; margin-top: 35px;
+}
+#body ul li.list2 p{font-size: 12px; text-align: center; color: white;
+width: 340px; margin-bottom: 7px; margin-left: 8px;
+}
+#body ul li.list2 p.word1{margin-top: 10px;}
+#body ul li.list2 img{ width: 85%; height: 40px; margin-left:20px; margin-top: 8px;}
+#body ul li.list5 h5{ font-size: 18px; color: white;
+text-align: center; margin-top: 35px;
+}
+#body ul li.list5 img{ width: 85%; height: 40px; margin-left:20px; margin-top: 10px;}
+#body ul li.list5 p{font-size: 12px; text-align: center; color: white;
+width: 340px; margin-bottom: 7px; margin-left: 8px;
+} 
+#body ul li.list5 p.word2{margin-top: 12px;}
+#body ul li.list8 h5{ font-size: 18px; color: white;
+text-align: center; margin-top: 35px;
+}
+#body ul li.list8 img{ width: 85%; height: 40px; margin-left:20px; margin-top: 10px;}
+#body ul li.list8 p{font-size: 12px; text-align: center; color: white;
+width: 330px; margin-top: 12px; height: 245px;
+line-height: 21px; margin-left: 12px;
+} 
+/*body项结束*/
+
+/*bottom开始*/
+#bottom{width: 100%; height: 227px; background: #2F2F30; overflow: hidden;}
+#bottom ul{width: 965px; height: 170px; ; 
+margin: 0 auto; margin-top: 35px;
+}
+#bottom ul li{width: 165px; height: 165px; float: left; background: #180F06;
+text-align: center; line-height: 165px; margin-right: 28px;
+border-radius: 50%; transition: 0.5s;
+}
+#bottom ul li a{color: white; display: block; width: 165px; height: 165px;}
+#bottom ul li:hover{transform: scale(1.2);}
+/*bottom结束*/
+
+/*contact us开始*/
+#contus{width: 100%; height: 90px; overflow: hidden; background: #180F06;}
+#contus ul{width:1050px; height: 66px; margin: 0 auto; margin-top: 13px;}
+#contus ul li{margin-top: 25px; color: white;}
+#contus ul li a{color: white;}
+#contus ul li.fuhao{width: 5px; height: 20px; float: left; text-align: center; font-size: 13px;}
+#contus ul li:nth-child(2){width: 160px; height: 20px; float: left; text-align: center; font-size: 13px;}
+#contus ul li:nth-child(4){width: 125px; height: 19px; text-align: center; font-size: 13px; float: left;}
+#contus ul li:nth-child(6){width: 111px; height: 16px; text-align: center; font-size: 13px; float: left;}
+#contus ul li.en{width: 425px; height: 23px; text-align: center; font-size: 13px; float:right;
+margin-right: 205px;
+}
+/*contact us结束

@@ -1,0 +1,153 @@
+/*初始化代码*/
+body,div,p,ul,li,h3,img,h4,h5{margin: 0px; padding: 0px;}
+li{list-style: none;}
+a{text-decoration: none; color: black;}
+/*初始化代码结束*/
+
+body{background: white;}
+
+/*top项开始*/
+#top{width: 100%; height: 180px; background: white;}
+#top .logo{width: 170px; height: 180px; margin-left: 150px; position: relative;}
+#top .logo a{display: block; width: 200px; height: 185px; margin: 0 auto; color: black;}
+#top .logo a img{width: 65%; height: 80%; margin-top: 15px;}
+#top .logo p{position: absolute; left: 155px; top: 103px; width: 50px; height: 30px; color: black;}
+#top .menu{width: 750px; height: 180px; float: right; margin-top: -180px; margin-right: 55px;}
+#top .menu p{width: 120px; height: 30px; float: right; margin-top: 50px; 
+text-align: center;}
+#top .menu p a{color: black;}
+#top .menu p a:hover{text-decoration: underline;}
+#top .menu ul{width: 700px; height: 75px; margin-top: 100px; margin-left: 38px;}
+#top .menu ul li{float: left; width: 100px; height: 30px; text-align: center;}
+#top .menu ul li a{color: black;}
+#top .menu ul li a:hover{color: #B98C4B;}
+/*top项结束*/
+
+/*banner开始*/
+#banner{width: 100%; height: 580px; background: blue;}
+#banner img{width: 100%; height: 580px;}
+/*banner结束*/
+
+/*title*/
+#title{height: 310px; width:100%; background: white;}
+#title h3{font-size: 36px; text-align: center;
+width: 270px; height: 60px; 
+font-weight: lighter; line-height: 60px;
+margin: 0 auto;
+}
+#title p.word1{
+	width: 545px; height: 30px;
+	 font-size: 12px;
+	line-height: 30px; text-align: center;
+	margin: 0 auto; font-weight: bold;
+	margin-top: 45px;
+}
+#title p.word2{
+	width:160px; height: 20px; 
+	text-align: center; line-height: 20px; 
+	font-size: 12px; margin: 0 auto;
+	margin-top: 26px;
+}
+#title h4{
+	width: 545px; height: 28px; border-top: 1px solid black;
+	margin: 0 auto; text-align: center; margin-top: 20px;
+	position: relative; margin-top:63px;
+}
+#title h4 span{font-size: 14px; display: inline-block;
+position: absolute; width: 250px; left: 145px; top:-10px;
+background: white;
+}
+/*title*/
+
+/*top word*/
+#top-word{width: 100%; height: 65px; }
+#top-word a{display: inline-block; width: 170px; height: 40px;
+	text-align: center; line-height: 40px; color: #666666;
+	margin-top: 10px; font-size: 14px; margin: 0 50px;
+}
+#top-word a:nth-child(1){margin-left: 125px;}
+/*top word*/
+
+/*body*/
+#body{width: 1300px; height: 1250px;
+margin: 0 auto;
+}
+#body ul{width:1300px; height: 1250px;
+}
+#body ul li{width: 350px; height: 360px;
+float:left; margin-left: 67px; margin-bottom: 60px;
+}
+#body ul li img{width: 350px; height: 375px;
+/*box-shadow: 0 0 5px black;*/
+}
+/*body*/
+
+/*bottom title*/
+#bottom-title{width: 100%; height: 100px; margin-top: 50px;
+}
+#bottom-title h4{
+	width: 545px; height: 28px; border-top: 1px solid black;
+	margin: 0 auto; text-align: center;
+	position: relative; margin-top:80px;
+}
+#bottom-title h4 span{font-size: 14px; display: inline-block;
+position: absolute; width: 250px; left: 145px; top:-10px;
+background: white;
+}
+/*bottom title*/
+
+/*bottom开始*/
+#bottom{width: 100%; height: 227px; background: #2F2F30; overflow: hidden;}
+#bottom ul{width: 965px; height: 170px; ; 
+margin: 0 auto; margin-top: 35px;
+}
+#bottom ul li{width: 165px; height: 165px; float: left; background: #180F06;
+text-align: center; line-height: 165px; margin-right: 28px;
+border-radius: 50%; transition: 0.5s;
+}
+#bottom ul li a{color: white; display: block; width: 165px; height: 165px;}
+#bottom ul li:hover{transform: scale(1.2);}
+/*bottom结束*/
+
+/*contact us开始*/
+#contus{width: 100%; height: 90px; overflow: hidden; background: #180F06;}
+#contus ul{width:1050px; height: 66px; margin: 0 auto; margin-top: 13px;}
+#contus ul li{margin-top: 25px; color: white;}
+#contus ul li a{color: white;}
+#contus ul li.fuhao{width: 5px; height: 20px; float: left; text-align: center; font-size: 13px;}
+#contus ul li:nth-child(2){width: 160px; height: 20px; float: left; text-align: center; font-size: 13px;}
+#contus ul li:nth-child(4){width: 125px; height: 19px; text-align: center; font-size: 13px; float: left;}
+#contus ul li:nth-child(6){width: 111px; height: 16px; text-align: center; font-size: 13px; float: left;}
+#contus ul li.en{width: 425px; height: 23px; text-align: center; font-size: 13px; float:right;
+margin-right: 205px;
+}
+/*contact us结束
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
